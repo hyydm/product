@@ -1,0 +1,182 @@
+    /*通用样式*/
+    
+    body {
+        font: 12px "microsoft yahei", Arial, sans-serif;
+        color: #666;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    d1,
+    dd {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    input {
+        border: 0;
+    }
+    
+    .lf {
+        float: left;
+    }
+    
+    .rt {
+        float: ;
+    }
+    
+    .clear {
+        clear: both;
+    }
+    
+    img {
+        vertical-align: bottom
+    }
+    
+    a {
+        color: #666;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #FF6600;
+        text-decoration: underline;
+    }
+    
+    #top_box,
+    #top_mein,
+    #nav,
+    #banner,
+    #main,
+    #foot_box {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #top {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        background: #F5F5F5;
+        border: 1px solid #FFF;
+    }
+    
+    #top_box>a,
+    .dd,
+    .yg,
+    .phone,
+    .ser {
+        padding: 0 15px 0 10px;
+        background: url(images/jt_down.jpg) no-repeat 95% center;
+        border: 1px solid transparent;
+        border-bottom: 0;
+        display: inline-block;
+        height: 26px;
+        line-height: 26px;
+    }
+    
+    #top_box>a.al:hover {
+        border-color: #ddd;
+        background-color: #fff;
+        background-image: url(images/jt_up.jpg);
+    }
+    
+    #top_box>a.a2:hover {
+        background-color: #ddd;
+        background-color: #fff;
+        background-image: url(images/jt_up.jpg);
+    }
+    
+    #top_box ul.delu li {
+        float: left;
+        margin: auto 5px;
+    }
+    
+    .dd:hover {
+        background: url(images/jt_up.jpg);
+    }
+    
+    .yg:hover {
+        background-image: url(images/jt_up.jpg);
+    }
+    
+    .phone:hover {
+        background-image: url(images/jt_up.jpg);
+    }
+    
+    .ser:hover {
+        background-image: url(images/jt_up.jpg);
+    }
+    
+    #top_box a.al {
+        position: relative;
+        z-index: 80;
+    }
+    
+    #address {
+        width: 984px;
+        height: 240px;
+        border: 1px solid #ddd;
+        position: absolute;
+        top: 27px;
+        left: 0;
+        z-index: 50;
+        background: #fff;
+        padding: 10px;
+        display: none;
+    }
+    /*#top_box>a.al:hover #address{
+        display:block;}*/
+    
+    #address ul.content {
+        float: left;
+        width: 196px;
+        overflow: hidden;
+    }
+    
+    #address ul.content li {
+        float: left;
+        text-align: left;
+        padding: 0 10px;
+        width: 30px;
+    }
+    
+    #address ul.tabs {
+        overflow: hidden;
+    }
+    
+    #address ul.tabs li {
+        float: left;
+        text-align: left;
+        font-size: 16px;
+        padding: 0 10px;
+        width: 176px;
+        margin-top: 5px;
+    }
+    
+    #address ul.tabs li>a {
+        color: #333;
+    }
+    
+    #close {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        color: #676667;
+        font-size: 26px;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+        position: absolute;
+        right: -1px;
+        top: -2px;
+    }
