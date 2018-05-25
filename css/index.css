@@ -329,7 +329,7 @@
         margin: 0 auto;
     }
     
-    #foot_bob {
+    #foot_boh {
         margin-top: 10px;
         padding: 10px;
         overflow: hidden;
@@ -338,4 +338,286 @@
     #foot_boh p {
         float: left;
         width: 47px;
+        height: 47px;
+        margin: 0 10px 0 0;
+        margin-top: 10px;
+    }
+    
+    #foot_boh p.zheng {
+        background: url(images/qr_03.jpg)no-repeat;
+    }
+    
+    #foot_boh p.jisu {
+        background: url(images/qr_05.jpg)no-repeat;
+    }
+    
+    #foot_boh p.wuyou {
+        background: url(images/qr_07.jpg)no-repeat;
+    }
+    
+    #foot_boh p.tese {
+        background: url(images/qr_09.jpg)no-repeat;
+    }
+    
+    #foot_boh p.banz {
+        background: url(images/qr_11.jpg)no-repeat;
+    }
+    
+    #foot_boh ul {
+        float: left;
+        width: 131px;
+        margin-right: 50px;
+    }
+    
+    #foot_boh ul b {
+        line-height: 30px;
+    }
+    
+    #foot_boh ul li {
+        line-height: 22px;
+    }
+    
+    #foot_bog {
+        border-top: 1px solid #ddd;
+        padding-bottom: 15px;
+        overflow: hidden;
+    }
+    
+    #foot_bog ul {
+        float: left;
+        width: 201px;
+    }
+    
+    #foot_bog ul b {
+        line-height: 22px;
+    }
+    
+    #foot_bog>ul>li img {
+        margin-top: 10px;
+    }
+    /*页面底部*/
+    
+    #footer {
+        background: #33302B;
+        width: 100%;
+        min-height: 300px;
+    }
+    
+    #footer_br {
+        margin: 0 auto;
+        width: 1211px;
+    }
+    
+    #footer_br {
+        margin-top: 10px;
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    #footer_br p {
+        float: left;
+        width: 85px;
+        height: 60px;
+        margin: 0 10px 0 0;
+        margin-top: 10px;
+    }
+    
+    #footer_br p.caigou {
+        background: url(images/be_01.png) no-repeat;
+    }
+    
+    #footer_br p.zhongb {
+        background: url(images/be_02.png) no-repeat;
+    }
+    
+    #footer_br p.shenb {
+        background: url(images/be_03.png) no-repeat;
+    }
+    
+    #footer_br ul {
+        float: left;
+        width: 210px;
+        margin-right: 95px;
+    }
+    
+    #footer_br ul b {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    
+    #footer_br ul li {
+        line-height: 22px;
+        color: #fff;
+    }
+    
+    #footer_br ul li.men {
+        margin-top: 5px;
+    }
+    
+    #footer_br ul:nth-child(4) {
+        border-right: 1px dotted #444;
+    }
+    
+    #footer_br ul:nth-child(2) {
+        border-right: 1px dotted #444;
+    }
+    
+    div.links {
+        margin-top: 150px;
+    }
+    
+    div.links a,
+    div.hash a {
+        color: #fff;
+    }
+    
+    div.links a,
+    div.hash a {
+        margin: 5px 10px 5px 0;
+        padding: 5px 0 5px 10px;
+    }
+    
+    div.boot a {
+        display: inline-block;
+        padding: 10px 0 0 10px;
+    }
+    
+    div.hash img {
+        margin-top: 10px;
+    }
+    /*页面主导航*/
+    
+    #nav {
+        height: 37px;
+        line-height: 37px;
+        border-bottom: 1px solid #333333;
+    }
+    
+    #nav>div a {
+        font-weight: bold;
+        font-size: 14px;
+        color: #333;
+        padding-left: 10px;
+        float: left;
+    }
+    /*列表*/
+    
+    #nav ul li {
+        float: left;
+    }
+    
+    #nav ul li a {
+        float: left;
+        width: 80px;
+        height: 37px;
+        font-size: 14px;
+        text-align: center;
+    }
+    /*主体左侧*/
+    
+    #banner {
+        width: 100%;
+        height: 455px;
+        overflow: hidden;
+        /*background:#A90E30;*/
+    }
+    
+    #banner_c {
+        width: 1200px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    #cate_box {
+        float: left;
+        box-sizing: border-box;
+        width: 190px;
+        height: 455px;
+        padding-top: 2px;
+        background: #F2F2F2;
+        margin-bottom: 10px;
+    }
+    
+    #cate_box>li {
+        padding: 10px 0 9px 10px;
+    }
+    
+    #cate_box>li:hover {
+        color: #fff;
+        background: #F64D4C;
+    }
+    
+    #cate_box>li:hover>a {
+        color: #fff;
+    }
+    
+    #cate_box {
+        position: relative;
+    }
+    
+    #sub_cate_box {
+        width: 900px;
+        height: 1px;
+        border: 2px solid #FAABAB;
+        background: #fff;
+        position: absolute;
+        top: 0px;
+        left: 191px;
+        display: none;
+    }
+    
+    #sub_cate_items {
+        float: left;
+        width: 635px;
+    }
+    
+    #sub_cate_items ul.cate_buh {
+        overflow: hidden;
+    }
+    
+    #sub_care_items ul.cate_buh li {
+        float: left;
+        padding: 10px 10px 5px 5px;
+    }
+    
+    #sub_cate_items ul.cate_buh li a {
+        display: block;
+        color: #fff;
+        background: #FA4C4C;
+        border-radius: 11px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    #sub_cate_items ul.cate_buh li a.btnBuy {
+        width: 48px;
+        margin-left: 20px;
+    }
+    
+    #sub_cate_items ul.cate_buh li a.btnBuy01 {
+        width: 55px;
+    }
+    
+    #sub_cate_items ul.cate_buh li a.btnBuy02 {
+        width: 66px;
+    }
+    
+    #sub_cate_items ul.cate_bup {
+        overflow: hidden;
+    }
+    
+    #sub_cate_items ul.cate_bup li {
+        float: left;
+        padding: 5px 7px;
+    }
+    
+    #sub_cate_items ul.cate_bup li.title {
+        display: block;
+        font-weight: bold;
+        height: 20px;
+        overflow: hidden;
+        float: left;
+        margin: 0 8px 8px 5px;
     }
