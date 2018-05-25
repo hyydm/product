@@ -621,3 +621,140 @@
         float: left;
         margin: 0 8px 8px 5px;
     }
+    
+    #sub_cate_items ul:nth-child(2) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(3) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(4) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(5) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(6) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(7) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(8) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(9) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul:nth-child(10) {
+        border-bottom: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    #sub_cate_items ul.cate_bup li.title_i {
+        display: block;
+        font-weight: bold;
+        height: 20px;
+        overflow: hidden;
+        float: left;
+        margin: 0 8px 0 5px;
+    }
+    
+    #sub_cate_banner {
+        width: 265px;
+        float: left;
+    }
+    
+    #sub_cate_banner a {
+        display: inline-block;
+    }
+    
+    #sub_cate_banner a:nth-child(1) {
+        margin-top: 10px;
+    }
+    
+    #sub_cate_banner a:nth-child(2) {
+        margin-top: 10px;
+    }
+    
+    #sub_cate_banner a {
+        margin: 5px 0 0 5px;
+    }
+    
+    #sub_cate_banner>p {
+        float: left;
+        margin-top: 20px;
+    }
+    
+    #sub_cate_banner>p>i img {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.i7 a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.iphone a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.leshi a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.lan a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.huafei a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.dan a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.weidian a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.pai a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.chu a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.vr a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.wuren a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.sdutent a {
+        color: #FF6D0C;
+    }
+    
+    #sub_cate_items>ul.cate_bup>li.xuexi a {
+        color: #FF6D0C;
+    }
