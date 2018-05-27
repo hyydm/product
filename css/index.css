@@ -1258,3 +1258,138 @@
         font-weight: bold;
         counter-reset: #783e18;
     }
+    
+    #floor_head ul.floor_tab li.one span {
+        width: 0;
+        height: 0;
+        border-width: 0 11px 9px;
+        border-style: solid;
+        border-color: transparent transparent #783e18;
+        position: absolute;
+        left: 50%;
+        margin-left: -11PX;
+        bottom: 0;
+        border-color: #FFF #FFF #783e18;
+        font-size: 0;
+    }
+    /*固定定位*/
+    
+    #right_menu {
+        width: 30px;
+        height: 100%;
+        background: #383838;
+        position: fixed;
+        right: 320px;
+        top: 0;
+        display: none;
+    }
+    
+    #floor_main {
+        position: relative;
+        height: 590px;
+        overflow: hidden;
+    }
+    
+    #floor_main ul.entrances {
+        position: absolute;
+        bottom: 270px;
+        width: 383px;
+        background-color: #fff;
+        overflow: hidden;
+        opacity: .7;
+    }
+    
+    #floor_main ul.entrances li {
+        float: left;
+        padding: 7px 0;
+    }
+    
+    #floor_main ul.entrances li {
+        position: relative;
+        float: left;
+        width: 85px;
+        height: 33px;
+        line-height: 33px;
+        margin: 0 21px;
+        overflow: hidden;
+        zoom: 1;
+        text-decoration: none;
+    }
+    
+    #floor_main div.hot_word {
+        width: 383px;
+        height: 124px;
+        border-bottom: 1px solid #eee;
+        border-left: 1px solid #eee;
+    }
+    
+    #floor_main div.hot_word div {
+        float: left;
+        width: 128px;
+        margin: 12px 18px;
+        overflow: hidden;
+    }
+    
+    #floor_main div.hot_word dia a {
+        display: block;
+        float: left;
+        width: 64px;
+        height: 25px;
+        line-height: 25px;
+        overflow: hidden;
+    }
+    
+    #floor_main div.hot_word div.right {
+        margin-left: 72px;
+    }
+    
+    #floor_main div.last_img {
+        width: 382px;
+        height: 145px;
+        border-left: 1px solid #eee;
+        border-right: 1px solid #eee;
+    }
+    
+    #floor_main div.last_img img {
+        width: 382px;
+        height: 145px;
+        display: block;
+    }
+    
+    #main_cont {
+        width: 805px;
+        float: left;
+        height: 581px;
+        margin-top: 6px;
+        margin-left: -6px;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        border-right: 1px solid #eee;
+        background: #fff;
+        overflow: hidden;
+    }
+    
+    #main_content {
+        width: 405px;
+        height: 582px;
+        float: left;
+    }
+    
+    #main_content ul.alidero1 {
+        width: 404px;
+        height: 292px;
+        position: relative;
+        float: left;
+    }
+    
+    #main_content ul.slider01 il {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 404px;
+        height: 291px;
+        border-bottom: 1px solid #eee;
+        border-left: 1px solid #eee;
+        background: #fff;
+        overflow: hidden;
+    }
